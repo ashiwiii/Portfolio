@@ -55,7 +55,7 @@ header {
 
 .home-head {
     align-self: flex-start;
-    padding-top: 350px;
+    padding-top: 390px;
 }
 
 .home-info {
@@ -134,7 +134,7 @@ header {
 
 #back-to-top {
     right: 16px;
-    bottom: 16px;
+    bottom: 65px;
     width: 42px;
     height: 42px;
 }
