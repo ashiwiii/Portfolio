@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Grace Ashley Lim, a Computer Science student showcasing web design and development projects. Midterm Project for DCIT 26"
+    />
+    <title>Home | Grace Ashley</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="top" class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="home-head">
+        <h2>
+          <span class="first-name">Grace</span>
+          <span class="last-name">Ashley</span>
+        </h2>
+      </div>
+
+      <div class="home-info">
+        <ul class="tags">
+          <li>UI/UX</li>
+          <li>Web Development</li>
+          <li>Game Development</li>
+        </ul>
+
+        <div class="socials">
+          <a
+            href="https://www.facebook.com/grace.ashley.lim"
+            target="_blank"
+            class="img-button"
+          >
+            <img src="imgs/fb.png" alt="Visit my Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/cpx.ashi?xtok=cXNnM3RzY2Y4NnAy"
+            target="_blank"
+            class="img-button"
+          >
+            <img src="imgs/ig.png" alt="Visit my Instagram" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-photo">
+        <img src="imgs/about.jpg" alt="Photo of Grace Ashley" />
+      </div>
+
+      <div class="about-head">
+        <h2>ABOUT ME</h2>
+        <p>
+          Hi! I'm Grace Ashley Lim, currently taking a bachelor's degree in
+          Computer Science at Cavite State University Bacoor City Campus.
+        </p>
+        <br />
+        <p>
+          The goal of this website is to showcase my experience, projects and
+          skills. Allows clients and collaborators to explore what I can do.
+        </p>
+        <br />
+        <p>
+          This is a project-based portfolio website built by using HTML, CSS and
+          JavaScript. HTML structures the content of each section. CSS handles
+          the layout, colors and responsive design. JavaScript adds the dynamic
+          features
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>MY PROJECTS & CERTIFICATES</h2>
+
+      <div class="container-row">
+        <label class="card-toggle">
+          <input type="checkbox" class="toggle-box" hidden />
+          <div class="container">
+            <img
+              src="imgs/proj1.png"
+              alt="Job Finding Website preview"
+              class="img"
+            />
+            <div class="overlay">
+              <div class="text">
+                <h3>Job Finding Website</h3>
+                <p>
+                  A web design project developed for a client, in which I
+                  established the structure and foundation of their website
+                  using HTML and CSS.
+                </p>
+                <a
+                  href="https://github.com/ashiwiii/Job-Finding"
+                  target="_blank"
+                  class="button"
+                  >Click here to view!</a
+                >
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <label class="card-toggle">
+          <input type="checkbox" class="toggle-box" hidden />
+          <div class="container">
+            <img src="imgs/proj2.png" alt="Project 2 preview" class="img" />
+            <div class="overlay">
+              <div class="text">
+                <h3>Hangmeow</h3>
+                <p>
+                  A cat-themed Hangman game developed in Python, created in
+                  collaboration with my groupmates.
+                </p>
+                <a
+                  href="https://github.com/ashiwiii/Hangmeow"
+                  target="_blank"
+                  class="button"
+                  >Click here to view!</a
+                >
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <label class="card-toggle">
+          <input type="checkbox" class="toggle-box" hidden />
+          <div class="container">
+            <img src="imgs/proj3.png" alt="Project 3 preview" class="img" />
+            <div class="overlay">
+              <div class="text">
+                <h3>Patient-360</h3>
+                <p>
+                  A full-stack healthcare management system integrating SQL and
+                  MongoDB databases, developed with my groupmates as a final
+                  project.
+                </p>
+                <a
+                  href="https://github.com/ashiwiii/Patient-360"
+                  target="_blank"
+                  class="button"
+                  >Click here to view!</a
+                >
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <label class="card-toggle">
+          <input type="checkbox" class="toggle-box" hidden />
+          <div class="container">
+            <img src="imgs/cert.png" alt="Certificate preview" class="img" />
+            <div class="overlay">
+              <div class="text">
+                <h3>Blockchain</h3>
+                <p>
+                  Organized by Cryptita Plays with support from Avalance Team1
+                  Philippines. Introduced the fundamentals of Web3, blockchain
+                  technology, financial literacy and the Avalanche ecosystem.
+                  The event aimed to empower students through responsible
+                  digital innovation and emerging technology education.
+                </p>
+                <a href="imgs/certificate.jpg" target="_blank" class="button"
+                  >View certificate</a
+                >
+              </div>
+            </div>
+          </div>
+        </label>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <h2>WORK WITH ME</h2>
+
+      <div class="contact-wrap">
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+
+        <div class="contact-info">
+          <div class="details-card">
+            <h3>Contact Details</h3>
+            <p class="contact-detail">
+              <img src="imgs/mail.png" alt="Email" />
+              <a href="mailto:workwithash27@gmail.com"
+                >workwithash27@gmail.com</a
+              >
+            </p>
+            <p class="contact-detail">
+              <img src="imgs/phone.png" alt="Phone" />
+              <a href="tel:+639291235719">+63 929 123 5719</a>
+            </p>
+
+            <div class="follow">
+              <h4>Follow Me</h4>
+              <div class="socials">
+                <a
+                  href="https://www.facebook.com/grace.ashley.lim"
+                  target="_blank"
+                  class="img-button"
+                >
+                  <img src="imgs/fb.png" alt="Visit my Facebook" />
+                </a>
+                <a
+                  href="https://www.instagram.com/n0t.4shi?igsh=MWg0ODEyY3Q2Mnh4eQ=="
+                  target="_blank"
+                  class="img-button"
+                >
+                  <img src="imgs/ig.png" alt="Visit my Instagram" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>© Designed & Developed by Grace Ashley Lim — BSCS 3-1</p>
+    </div>
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">
+      ↑
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
