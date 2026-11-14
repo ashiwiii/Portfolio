@@ -43,6 +43,9 @@ header {
 
 
 #home {
+    background-size: auto 55%;     
+    background-repeat: no-repeat;
+    background-position: center top;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
